@@ -22,7 +22,7 @@ Tested on a GTX 1070 8 GB, Qwen3.6-35B-A3B reaches about **22 tok/s** with q8_0 
 | Context | **32K stable** (q8_0) / **64K stable** (q4_0) |
 | vs RTX 3060 12 GB | ~15% slower (26.3 vs 22.3 tok/s) |
 
-> 📊 Full benchmark data: [results/simple_benchmark.md](results/simple_benchmark.md)
+> 📊 Full benchmark data: [results/simple_benchmark_EN.md](results/simple_benchmark_EN.md)
 
 ## Recommended config
 
