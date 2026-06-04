@@ -30,8 +30,6 @@ Tested on a GTX 1070 8 GB, Qwen3.6-35B-A3B reaches about **22 tok/s** with q8_0 
 llama-server.exe ^
   -m "Qwen3.6-35B-A3B-Q4_K_M.gguf" ^
   -t 4 ^
-  --host 0.0.0.0 ^
-  --port 8080 ^
   -ngl 40 ^
   --n-cpu-moe 30 ^
   --no-mmap ^

@@ -30,8 +30,6 @@
 llama-server.exe ^
   -m "Qwen3.6-35B-A3B-Q4_K_M.gguf" ^
   -t 4 ^
-  --host 0.0.0.0 ^
-  --port 8080 ^
   -ngl 40 ^
   --n-cpu-moe 30 ^
   --no-mmap ^
