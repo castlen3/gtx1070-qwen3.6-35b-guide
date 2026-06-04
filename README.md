@@ -20,7 +20,9 @@
 | decode 速度 | **22.3 tok/s** (q8_0) / **22.8 tok/s** (q4_0) |
 | VRAM peak | ~7.5 GB (q8_0, n_cpu_moe=30) |
 | context | **32K 穩跑** (q8_0) / **64K 穩跑** (q4_0) |
-| 與 RTX 3060 12GB 差距 | ~15%（26.3 vs 22.3 tok/s） |
+| 與 RTX 3060 12GB 差距 | ~15%
+
+> 📊 完整測試數據見 [results/simple_benchmark.md](results/simple_benchmark.md)（26.3 vs 22.3 tok/s） |
 
 ## 推薦配置
 
